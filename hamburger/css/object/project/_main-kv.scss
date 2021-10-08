@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+.p-kv {
+  background-image: url(/img/keyvisual.jpg);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 28.5rem;
+
+  @include tb {
+    height: 28.5rem;
+  }
+
+  @include pc {
+    height: 53rem;
+  }
+}
+
+.c-main-kv__logo {
+  padding-top: 11.9rem;
+  padding-left: 2.5rem;
+
+  @include tb {
+    padding-left: 8.6rem;
+  }
+
+  @include pc {
+    padding-top: 23.1rem;
+  }
+}

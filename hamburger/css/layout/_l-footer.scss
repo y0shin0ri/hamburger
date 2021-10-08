@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.l-footer {
+  background-image: url(/img/footer.png);
+  background-repeat: no-repeat;
+  height: 37.5rem;
+
+  @include tb {
+    height: 15rem;
+  }
+}

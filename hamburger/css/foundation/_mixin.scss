@@ -1,0 +1,18 @@
+@charset "UTF-8";
+
+$pc: 1025px; //パソコンの最小値
+$tb: 600px; //タブレットの最小値
+
+//画面サイズが1025px以上の場合、パソコン画面になる
+@mixin pc {
+  @media (min-width: ($pc)) {
+    @content;
+  }
+}
+
+//画面サイズが600px以上1024px以下の場合、タブレット画面になる
+@mixin tb {
+  @media (min-width: ($tb)) {
+    @content;
+  }
+}

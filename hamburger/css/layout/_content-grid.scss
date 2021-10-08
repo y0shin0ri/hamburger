@@ -1,0 +1,29 @@
+@charset "UTF-8";
+
+@include pc {
+  .l-content-wrapper {
+    display: grid;
+    grid-template-columns: 1fr 20%;
+    grid-auto-rows: 217px 1fr 150px;
+  }
+
+  .l-header {
+    grid-row: 1/2;
+    grid-column: 1/2;
+  }
+
+  .l-sidebar {
+    grid-row: 1/4;
+    grid-column: 2/3;
+  }
+
+  .l-main {
+    grid-row: 2/3;
+    grid-column: 1/2;
+  }
+
+  .l-footer {
+    grid-row: 3/4;
+    grid-column: 1/3;
+  }
+}
