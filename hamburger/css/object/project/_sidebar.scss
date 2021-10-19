@@ -2,6 +2,11 @@
 
 .l-sidebar {
   position: relative;
+  overflow: hidden;
+}
+
+.sidebar-isopen {
+  overflow: visible;
 }
 
 .p-overlay {
@@ -43,10 +48,10 @@
 
   @include pc {
     top: 22.5rem;
-    left: 19.1%;
+    right: 0%;
     width: 100%;
     padding-top: 0;
-    padding-left: 0;
+    // padding-left: 0;
   }
 }
 

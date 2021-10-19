@@ -4,6 +4,7 @@ $(function () {
     $("#overlay").toggleClass("overlay-open");
     $("#close").toggleClass("close-isopen");
     $("#menu").toggleClass("menu-isclose");
+    $("#sidebar").toggleClass("sidebar-isopen");
     $(""), toggleClass("");
   });
 });

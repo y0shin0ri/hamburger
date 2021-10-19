@@ -84,6 +84,7 @@ html {
 
 body {
   font-family: "m+1p", sans-serif;
+  height: 100%;
 }
 
 body a {
@@ -168,13 +169,10 @@ body ul li {
 .l-footer {
   background-image: url(/img/footer.png);
   background-repeat: no-repeat;
-  height: 37.5rem;
-}
-
-@media (min-width: 600px) {
-  .l-footer {
-    height: 15rem;
-  }
+  background-size: cover;
+  width: 100%;
+  height: 15rem;
+  z-index: 9000;
 }
 
 /* ==========================================================================
@@ -427,8 +425,20 @@ body ul li {
   display: block;
 }
 
+@media (min-width: 1025px) {
+  #drawer_toggle {
+    height: 0%;
+    width: 0%;
+  }
+}
+
 .l-sidebar {
   position: relative;
+  overflow: hidden;
+}
+
+.sidebar-isopen {
+  overflow: visible;
 }
 
 .p-overlay {
@@ -474,10 +484,9 @@ body ul li {
 @media (min-width: 1025px) {
   .p-side-wrapper {
     top: 22.5rem;
-    left: 19.1%;
+    right: 0%;
     width: 100%;
     padding-top: 0;
-    padding-left: 0;
   }
 }
 
