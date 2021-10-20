@@ -1,0 +1,57 @@
+@charset "UTF-8";
+
+.p-acssess {
+  background: url(/img/map.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 69.1rem;
+}
+
+.p-black {
+  width: 100%;
+  height: 69.1rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+.p-back {
+  width: 100%;
+  height: 41.5rem;
+  background-color: rgba(0, 0, 0, 0.3);
+}
+
+.p-map-text {
+  width: 100%;
+  height: 27.7rem;
+}
+
+.p-map-text p {
+  font-family: "M+1m", sans-serif;
+  font-weight: bold;
+  font-size: 1.4rem;
+  color: #ffffff;
+  padding-top: 4rem;
+  padding-left: 4.2rem;
+  width: 74.7%;
+  height: 28rem;
+  overflow: hidden;
+}
+
+.c-main-map__heading {
+  position: relative;
+}
+
+.c-main-map__heading {
+  padding-top: 4rem;
+  padding-left: 4.2rem;
+}
+
+.c-main-map__heading::after {
+  content: "";
+  display: block;
+  width: 7.5rem;
+  height: 4px;
+  background-color: #ffffff;
+  position: absolute;
+  bottom: -2rem;
+  left: 4.2rem;
+}

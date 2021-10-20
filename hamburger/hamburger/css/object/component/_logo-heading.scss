@@ -1,0 +1,77 @@
+@charset "UTF-8";
+.c-header__logo {
+  font-family: "Robot", sans-serif;
+  font-size: 4rem;
+  font-weight: bold;
+
+  a {
+    color: #707070;
+  }
+
+  @include pc {
+    font-size: 6.4rem;
+  }
+}
+
+.c-sidebar__logo {
+  display: none;
+
+  @include pc {
+    display: block;
+    font-family: "Robot", sans-serif;
+    font-size: 3.4rem;
+    font-weight: bold;
+    color: #707070;
+  }
+}
+
+.c-sidebar__heading {
+  font-family: "M+1m", sans-serif;
+  font-size: 2.4rem;
+  font-weight: bold;
+  color: #707070;
+}
+
+.c-main-kv__logo {
+  font-family: "M+1m", sans-serif;
+  font-size: 3.6rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  @include pc {
+    font-size: 4rem;
+  }
+}
+
+.c-main-contents__heading {
+  font-family: "Robot", sans-serif;
+  font-size: 4.1rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  @include tb {
+    font-size: 4.4rem;
+  }
+  @include pc {
+    font-size: 8rem;
+  }
+}
+
+.c-main-map__heading {
+  font-family: "M+1m", sans-serif;
+  font-size: 3rem;
+  font-weight: bold;
+  color: #ffffff;
+
+  @include pc {
+    font-size: 3.6rem;
+  }
+}
+
+.c-rsp-menu__button-logo {
+  font-family: "Robot", sans-serif;
+  font-size: 2rem;
+  font-weight: bold;
+  color: #707070;
+
+}

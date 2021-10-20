@@ -1,0 +1,11 @@
+@charset "UTF-8";
+
+.l-header {
+  background-color: #fff7ef;
+
+  @include pc {
+    display: flex;
+    justify-content: space-between;
+    align-items: center;
+  }
+}

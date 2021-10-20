@@ -1,0 +1,36 @@
+@charset "UTF-8";
+
+.c-serch-form {
+  display: flex;
+}
+
+.c-header__serch-form {
+  width: 23rem;
+  height: 4.6rem;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  font-family: FontAwesome;
+  font-size: 2.4rem;
+  text-indent: 1rem;
+
+  @include pc {
+    width: 39.6rem;
+  }
+}
+
+.c-header__serch-button {
+  width: 7.8rem;
+  height: 4.6rem;
+  border-radius: 10px;
+  border: 1px solid #707070;
+  background: linear-gradient(to top, #ded8d3, #f2ede9);
+  color: #707070;
+  font-size: 1.6rem;
+  font-weight: bold;
+  margin-left: 1.2rem;
+
+  @include pc {
+    width: 13.6rem;
+    margin-left: 1.2rem;
+  }
+}

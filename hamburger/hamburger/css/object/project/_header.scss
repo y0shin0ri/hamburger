@@ -1,0 +1,28 @@
+@charset "UTF-8";
+.c-header__logo {
+    display: flex;
+    justify-content: center;
+    padding-top: 4rem;
+    padding-bottom: 3.8rem;
+
+
+    @include pc {
+        justify-content: start;
+        margin: 6.7rem 0 6.6rem 6.5rem;
+
+    }
+
+}
+
+.c-serch-form {
+    display: flex;
+    justify-content: center;
+    padding-bottom: 4rem;
+
+    @include pc {
+        justify-content: start;
+        margin: 8.6rem 3rem 8.5rem 0;
+
+    }
+
+}
