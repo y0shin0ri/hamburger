@@ -104,7 +104,8 @@ body ul li {
     display: grid;
     -ms-grid-columns: 1fr 20%;
         grid-template-columns: 1fr 20%;
-    grid-auto-rows: 217px 1fr 150px;
+    -ms-grid-rows: 217px 1fr 150px;
+        grid-template-rows: 217px 1fr 150px;
   }
   .l-header {
     -ms-grid-row: 1;
