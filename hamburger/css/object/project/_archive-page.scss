@@ -1,0 +1,63 @@
+@charset "UTF-8";
+
+.p-archive-kv {
+  background-image: url(/img/takeaut.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 28.3rem;
+
+  @include pc {
+    height: 23.9rem;
+  }
+}
+
+.c-archive-kv__text {
+  padding-top: 10.2rem;
+  padding-left: 3.7rem;
+
+  @include tb {
+    padding-top: 10.2rem;
+    padding-left: 8.6rem;
+  }
+
+  @include pc {
+    padding-top: 8rem;
+  }
+}
+
+.p-blackmask {
+  width: 100%;
+  height: 28.3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+
+  @include pc {
+    height: 23.9rem;
+  }
+}
+
+.p-content__wrapper {
+  padding-left: 2.2rem;
+  padding-right: 1.8rem;
+
+  @include tb {
+    padding-left: 4.2rem;
+    padding-right: 3.5rem;
+  }
+
+  @include pc {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+.c-sub-heading {
+  padding-top: 3rem;
+
+  @include tb {
+    padding-top: 3.6rem;
+  }
+
+  @include pc {
+    padding-top: 6rem;
+  }
+}

@@ -216,7 +216,7 @@ body ul li {
   color: #707070;
 }
 
-.c-main-kv__logo {
+.c-kv__heading {
   font-family: "M+1m", sans-serif;
   font-size: 3.6rem;
   font-weight: bold;
@@ -224,9 +224,23 @@ body ul li {
 }
 
 @media (min-width: 1025px) {
-  .c-main-kv__logo {
+  .c-kv__heading {
     font-size: 4rem;
   }
+}
+
+.c-kv__sub-heading {
+  font-family: "M+1m", sans-serif;
+  font-size: 1.6rem;
+  font-weight: bold;
+  color: #ffffff;
+}
+
+.c-sub-heading {
+  font-family: "M+1m", sans-serif;
+  font-size: 2.8rem;
+  font-weight: bold;
+  color: #3c2a10;
 }
 
 .c-main-contents__heading {
@@ -826,6 +840,84 @@ body ul li {
   font-family: "M+1m", sans-serif;
   font-size: 1.4rem;
   padding-top: 3.4rem;
+}
+
+.p-archive-kv {
+  background-image: url(/img/takeaut.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  height: 28.3rem;
+}
+
+@media (min-width: 1025px) {
+  .p-archive-kv {
+    height: 23.9rem;
+  }
+}
+
+.c-archive-kv__text {
+  padding-top: 10.2rem;
+  padding-left: 3.7rem;
+}
+
+@media (min-width: 600px) {
+  .c-archive-kv__text {
+    padding-top: 10.2rem;
+    padding-left: 8.6rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .c-archive-kv__text {
+    padding-top: 8rem;
+  }
+}
+
+.p-blackmask {
+  width: 100%;
+  height: 28.3rem;
+  background-color: rgba(0, 0, 0, 0.6);
+}
+
+@media (min-width: 1025px) {
+  .p-blackmask {
+    height: 23.9rem;
+  }
+}
+
+.p-content__wrapper {
+  padding-left: 2.2rem;
+  padding-right: 1.8rem;
+}
+
+@media (min-width: 600px) {
+  .p-content__wrapper {
+    padding-left: 4.2rem;
+    padding-right: 3.5rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .p-content__wrapper {
+    padding-left: 10rem;
+    padding-right: 10rem;
+  }
+}
+
+.c-sub-heading {
+  padding-top: 3rem;
+}
+
+@media (min-width: 600px) {
+  .c-sub-heading {
+    padding-top: 3.6rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .c-sub-heading {
+    padding-top: 6rem;
+  }
 }
 
 /* ==========================================================================
