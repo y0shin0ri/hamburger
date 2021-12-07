@@ -61,3 +61,14 @@
     padding-top: 6rem;
   }
 }
+
+.c-archive-section__middle p {
+  font-family: "M+1m", sans-serif;
+  font-size: 1.6rem;
+  color: #3c2a10;
+  padding-top: 3rem;
+
+  @include pc {
+    padding-top: 2.5rem;
+  }
+}

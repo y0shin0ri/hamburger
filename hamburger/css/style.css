@@ -920,6 +920,19 @@ body ul li {
   }
 }
 
+.c-archive-section__middle p {
+  font-family: "M+1m", sans-serif;
+  font-size: 1.6rem;
+  color: #3c2a10;
+  padding-top: 3rem;
+}
+
+@media (min-width: 1025px) {
+  .c-archive-section__middle p {
+    padding-top: 2.5rem;
+  }
+}
+
 /* ==========================================================================
    utility
    ========================================================================== */
