@@ -11,7 +11,7 @@
   }
 }
 
-.c-archive-kv__text {
+.c-archive-kv__heading {
   padding-top: 10.2rem;
   padding-left: 3.7rem;
 
@@ -70,5 +70,49 @@
 
   @include pc {
     padding-top: 2.5rem;
+  }
+}
+
+.p-archive__card {
+  margin-top: 1.9rem;
+  // height: 58.5rem;
+  background-color: #3c2b1c;
+  color: #ffffff;
+  font-family: "M+1m", sans-serif;
+
+  h3 {
+    font-size: 2rem;
+    font-weight: bold;
+    padding-top: 3rem;
+  }
+
+  h4 {
+    font-size: 1.6rem;
+    font-weight: bold;
+    padding-top: 2.4rem;
+  }
+
+  p {
+    width: 24.6rem;
+    font-size: 1.6rem;
+    padding-top: 1rem;
+  }
+
+  .p-archive__caed__intro {
+    padding-left: 1.7rem;
+  }
+
+  .c-archive-btn {
+    margin: 4rem auto 4.3rem auto;
+
+    @include tb {
+      margin-top: 4.5rem;
+      margin-bottom: 4rem;
+    }
+
+    @include pc {
+      margin-top: 6rem;
+      margin-bottom: 6rem;
+    }
   }
 }
