@@ -866,6 +866,7 @@ body ul li {
   background-image: url(/img/takeaut.png);
   background-repeat: no-repeat;
   background-size: cover;
+  background-position: center;
   height: 28.3rem;
 }
 
@@ -1074,6 +1075,40 @@ body ul li {
   .p-archive__card .c-archive-btn {
     margin-top: 6rem;
     margin-bottom: 6rem;
+  }
+}
+
+.p-shingle-kv {
+  background-image: url(/img/shingle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  -webkit-filter: contrast(130%);
+          filter: contrast(130%);
+  height: 28.3rem;
+}
+
+@media (min-width: 1025px) {
+  .p-shingle-kv {
+    height: 23.9rem;
+  }
+}
+
+.c-shingle-kv__heading {
+  padding-top: 10.2rem;
+  padding-left: 3.7rem;
+}
+
+@media (min-width: 600px) {
+  .c-shingle-kv__heading {
+    padding-top: 10.2rem;
+    padding-left: 8.6rem;
+  }
+}
+
+@media (min-width: 1025px) {
+  .c-shingle-kv__heading {
+    padding-top: 8rem;
   }
 }
 

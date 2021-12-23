@@ -1,0 +1,26 @@
+.p-shingle-kv {
+  background-image: url(/img/shingle.png);
+  background-repeat: no-repeat;
+  background-size: cover;
+  background-position: center;
+  filter: contrast(130%);
+  height: 28.3rem;
+
+  @include pc {
+    height: 23.9rem;
+  }
+}
+
+.c-shingle-kv__heading {
+  padding-top: 10.2rem;
+  padding-left: 3.7rem;
+
+  @include tb {
+    padding-top: 10.2rem;
+    padding-left: 8.6rem;
+  }
+
+  @include pc {
+    padding-top: 8rem;
+  }
+}
